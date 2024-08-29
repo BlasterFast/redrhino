@@ -168,4 +168,27 @@ nav{
     nav li a:hover:after{ width: 100%; }
     nav li:first-child a:after{ background: #a33332; }
     
-   
+   /* Load Animation Banner */
+   /* Load Animation Banner */
+   /* Load Animation Banner */
+   /* Load Animation Banner */
+
+   .overflow {
+    overflow: hidden;
+   }
+
+   #banner-text {
+    animation: drop-in 2s ease 200ms backwards;
+   }
+
+   @keyframes drop-in {
+    from {
+     opacity: 0;
+     transform: translateY(-10px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
+   }
+
