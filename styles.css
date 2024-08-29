@@ -104,11 +104,12 @@ header .logo-socials .logo {
     text-transform: uppercase;
     font-family: "Roboto Condensed";
     font-size: 1.2em;
-    margin-bottom: 5em;
+    margin-bottom: 10px;
 }
 
 .banner #banner-text h1 {
     margin-bottom: 10px;
+    font-size: 1.7em;
 }
 
 .banner #banner-text p {
@@ -192,3 +193,34 @@ nav{
     }
    }
 
+/* banner subinfo */
+/* banner subinfo */
+/* banner subinfo */
+/* banner subinfo */
+/* banner subinfo */
+/* banner subinfo */
+
+#banner-info-border {
+    border-top: 0.1px solid rgba(255, 255, 255, 0.521);
+    transform: translatey(7em);
+    width: 80vw;
+    color:transparent
+}
+
+#banner-subinfo {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(5em);
+    list-style: none;
+    text-transform: none;
+}
+
+#banner-subinfo li {
+    font-size: 14px;
+    padding: 3em 2em;
+}
+
+#banner-subinfo li i {
+    font-size: 3em;
+}
