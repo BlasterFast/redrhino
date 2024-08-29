@@ -56,7 +56,7 @@ header .navbar ul img {
 
 header .navbar ul li:hover {
     cursor: pointer;
-    color: red;
+    color: #a02523;
 }
 
 header .navbar ul li:hover img {
@@ -152,7 +152,7 @@ nav{
     }
         
     nav li a:hover{ border-bottom: 0px; color: #fff;}
-    nav li:first-child a{ border-left: 10px solid #a33332; }
+    nav li:first-child a{ border-left: 10px solid #a02523; }
     
     nav li a:after { 
       content: "";
@@ -167,7 +167,7 @@ nav{
     }
     
     nav li a:hover:after{ width: 100%; }
-    nav li:first-child a:after{ background: #a33332; }
+    nav li:first-child a:after{ background: #a02523; }
     
    /* Load Animation Banner */
    /* Load Animation Banner */
@@ -222,5 +222,6 @@ nav{
 }
 
 #banner-subinfo li i {
+    padding-bottom: 0.3em;
     font-size: 3em;
 }
